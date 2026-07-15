@@ -65,7 +65,7 @@ os.environ["HF_HUB_DISABLE_XET"] = "1"
 
 The full run takes roughly 20–30 minutes on a free Colab T4 GPU.
 
-This will:
+**This will:**
 
 - stream a class-balanced subset of the NCT-CRC-HE colorectal-cancer histology dataset,
 - train four ImageNet transfer-learning configurations (ResNet50 frozen, EfficientNet-B0 frozen, MobileNetV3 frozen, and a fine-tuned ResNet50), extract features from Phikon-v2 (Owkin), a ViT-L pathology foundation model pretrained with DINOv2, and train a linear head on top,
@@ -76,7 +76,7 @@ This will:
 - write all metrics to results/,
 - write all figures to figures/.
 
-Notes:
+**Notes:**
 - Reproducibility: a fixed random seed (42) is used throughout.
 - Crash recovery: extracted features are cached to results/feature_cache/ as each model completes. Re-running the script reloads the cache and skips re-extraction, so an interrupted run resumes rather than starting over.
 - Memory: the run uses a class-balanced subset (800 train / 300 test per class) to fit in free-tier RAM, and frees each model after use. On tighter memory, lower TRAIN_PER_CLASS at the top of train_colab.py.
