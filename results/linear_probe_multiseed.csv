@@ -1,0 +1,3 @@
+Model,Linear-probe Macro F1 (mean),Std,n_seeds
+ResNet50 (ImageNet),0.8436506300211647,1.1102230246251565e-16,5
+Phikon-v2 (pathology FM),0.9378841164984187,1.1102230246251565e-16,5

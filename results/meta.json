@@ -1,0 +1,31 @@
+{
+  "classes": [
+    "ADI",
+    "BACK",
+    "DEB",
+    "LYM",
+    "MUC",
+    "MUS",
+    "NORM",
+    "STR",
+    "TUM"
+  ],
+  "class_full": {
+    "ADI": "Adipose",
+    "BACK": "Background",
+    "DEB": "Debris",
+    "LYM": "Lymphocytes",
+    "MUC": "Mucus",
+    "MUS": "Smooth muscle",
+    "NORM": "Normal mucosa",
+    "STR": "Cancer-associated stroma",
+    "TUM": "Tumor epithelium"
+  },
+  "best_model": "Phikon-v2 (pathology FM)",
+  "train_per_class": 800,
+  "test_per_class": 300,
+  "seed": 42,
+  "train_split": "NCT_CRC_HE_100K",
+  "test_split": "CRC_VAL_HE_7K",
+  "test_is_separate_patients": true
+}

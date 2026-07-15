@@ -1,0 +1,7 @@
+{
+  "metric": "accuracy_difference_hibou_minus_resnet",
+  "point_estimate": 0.09370370370370373,
+  "ci95_low": 0.07925925925925925,
+  "ci95_high": 0.10851851851851846,
+  "significant_at_95": true
+}
